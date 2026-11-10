@@ -12,7 +12,8 @@
     <?php
 $notes = [
     "izpildīt mājasdarbu",
-    "Programmēt"
+    "Programmēt",
+    "aiziet laicīgi gulēt",
 ];
 
 echo "<ul>";
