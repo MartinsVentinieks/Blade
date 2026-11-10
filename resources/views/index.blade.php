@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="lv">
 
 <head>
     <meta charset="utf-8">
@@ -10,18 +10,12 @@
 <body>
     <h1>List of my Notes</h1>
     <?php
-$notes = [
-    "izpildīt mājasdarbu",
-    "Programmēt",
-    "aiziet laicīgi gulēt",
-];
-
 echo "<ul>";
 foreach ($notes as $note) {
-    echo "<li>" . $note . "<li>";
+    echo "<li>" . $note['content'] . "</li>";
 }
 echo "</ul>";
-?>
+    ?>
 
 </body>
 <html>
